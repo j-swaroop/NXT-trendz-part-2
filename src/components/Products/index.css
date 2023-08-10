@@ -1,0 +1,16 @@
+/* Write your CSS code here */
+.products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+.products-img{
+    width: 200px;
+}
+
+@media (max-width: 576px){
+    .products-img{
+        width: 150px;
+    }
+}
